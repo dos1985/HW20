@@ -1,5 +1,6 @@
 import pytest
-from demostration_solution.service.director import DirectorService
+from service.director import DirectorService
+
 
 class TestDirectorService:
     @pytest.fixture(autouse=True)

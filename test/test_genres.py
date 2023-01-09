@@ -1,10 +1,10 @@
 import pytest
 
-from demostration_solution.service.genre import GenreService
+from service.genre import GenreService
 
 
 class TestGenreService:
-    @pytest.fixture
+    @pytest.fixture(autouse=True)
     def test_genre_service(self, genre_dao):
         self.genre_service = GenreService(dao=genre_dao)
 

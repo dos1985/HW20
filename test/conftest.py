@@ -1,11 +1,13 @@
 from unittest.mock import MagicMock
 import pytest
-from demostration_solution.dao.director import DirectorDAO
-from demostration_solution.dao.genre import GenreDAO
-from demostration_solution.dao.model.director import Director
-from demostration_solution.dao.model.genre import Genre
-from demostration_solution.dao.model.movie import Movie
-from demostration_solution.dao.movie import MovieDAO
+from dao.director import DirectorDAO
+from dao.genre import GenreDAO
+from dao.model.director import Director
+from dao.model.genre import Genre
+from dao.model.movie import Movie
+from dao.movie import MovieDAO
+
+
 
 @pytest.fixture
 def director_dao():

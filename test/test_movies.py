@@ -1,6 +1,6 @@
 import pytest
 
-from demostration_solution.service.movie import MovieService
+from service.movie import MovieService
 
 class TestMovieService():
     @pytest.fixture(autouse=True)
